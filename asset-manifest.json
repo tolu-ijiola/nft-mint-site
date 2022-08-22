@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nft-mint-site/static/css/main.9eb00325.css",
+    "main.js": "/nft-mint-site/static/js/main.ffa7c7c1.js",
+    "index.html": "/nft-mint-site/index.html",
+    "main.9eb00325.css.map": "/nft-mint-site/static/css/main.9eb00325.css.map",
+    "main.ffa7c7c1.js.map": "/nft-mint-site/static/js/main.ffa7c7c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eb00325.css",
+    "static/js/main.ffa7c7c1.js"
+  ]
+}
