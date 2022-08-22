@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 7vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header a{
+    font-size: 20px;
+    color: #558b2f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header button{
+    padding: 15px 35px;
+    color: white;
+    border-radius: 32px;
+    border: 1px solid gainsboro;
+    background-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.log-out-btn{
+    display: flex;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.log-out-btn i{
+    margin-left: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.account{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 62px;
+}
+
+/* homepage */
+
+.homepage{
+    text-align: center;
+    padding: 10vh 4vw;
+}
+
+.homepage h1{
+    max-width: 50vw;
+    margin: auto;
+    font-size: 45px;
+    color: #558b2f;
+}
+
+
+.mint-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto;
+}
+
+.mint-details div{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 25px;
+    background-color: #558b2f10;
+    border-radius: 4px;
+}
+
+.mint-details p{
+    font-size: 14px;
+}
+
+.mint-details h5{
+    margin-top: 12px;
+}
+
+.homepage button{
+    margin-top: 8vh;
+    width: 150px;
+    border-radius: 32px;
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+}
+
+@media screen and (max-width: 850px) {
+    .homepage h1{
+        max-width: 75vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        padding: 25px 5vw;
+    }
+
+    .homepage h1{
+        max-width: 90vw;
+        font-size: 40px;
+    }
+
+    .mint-details{
+        flex-wrap: wrap;
+    }
+    
+    .mint-details div{
+        width: 40%;
+        margin-top: 12px;
+    }
 }
