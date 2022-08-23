@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# NFT Mint Site Sample
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates how to create an nft minting website with solidity and react.js.
 
-Try running some of the following tasks:
+To start the web app run:
+
+Clone this repository
 
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npx start
 ```
+View an already deployed sample <a href="https://tolu-ijiola.github.io/nft-mint-site/">here.</a>
